@@ -14,6 +14,8 @@
     "require": {
         "guzzlehttp/guzzle": "^7.8",
         "money/money": "^2.0",
-        "moneyphp/money": "^3.3"
+        "moneyphp/money": "^3.3",
+        "psr/clock": "^1.0",
+        "icecave/chrono": "^2.0"
     }
 }
