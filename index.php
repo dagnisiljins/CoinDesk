@@ -20,7 +20,7 @@ if (empty($collection->getCurrencies())) {
 
 foreach ($collection->getCurrencies() as $currency) {
     echo 'Bitcoin to ' . $currency->getCode() . PHP_EOL;
-    echo 'Time of data collection: ' .  $string . PHP_EOL;
+    echo 'Time of data collection: ' .  $string . ' UTC' . PHP_EOL;
     echo 'Rate: ' . $currency->getRate() . PHP_EOL;
     echo '------------------------------------------------------------------------' . PHP_EOL;
 }
